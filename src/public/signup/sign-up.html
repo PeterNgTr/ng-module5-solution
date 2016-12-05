@@ -30,7 +30,7 @@
                 <div class="form-group">
                     <label>Favorite dish</label>
                     <input type="text" class="form-control" name="favoriteDishShortNumber" ng-model="signupCtrl.favoriteDishShortNumber" placeholder="Short name of favorite dish (A1, B2, C3)" required>
-                    <span style="color: red" ng-if="signupForm.favoriteDishShortNumber.$invalid && signupForm.favoriteDishShortNumber.$touched">P(*) lease fill this field
+                    <span style="color: red" ng-if="signupForm.favoriteDishShortNumber.$invalid && signupForm.favoriteDishShortNumber.$touched">(*) Please fill your favorite dish
                     </span>
                 </div>
                 <button type="submit" class="btn btn-default" ng-disabled="signupForm.$invalid" ng-click="signupCtrl.signUp();">Submit</button>
